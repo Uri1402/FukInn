@@ -4,7 +4,6 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 public class DbConnection { 
-    static int funciona=1;
     static String bd = "dbhotel";   
     static String login = "root";   
     static String password = "qazwsx";   
