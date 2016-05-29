@@ -14,6 +14,7 @@ public class habitaciones {
     private int numero;
     private int piso;
     private String tipo;
+    private double precio;
     private String estado;
 
     public habitaciones() {
@@ -47,6 +48,10 @@ public class habitaciones {
         return tipo;
     }
 
+    public double getPrecio() {
+        return precio;
+    }
+    
     public void setEstado(String estado) {
         this.estado = estado;
     }
@@ -66,4 +71,9 @@ public class habitaciones {
     public void setTipo(String tipo) {
         this.tipo = tipo;
     }
+
+    public void setPrecio(double precio) {
+        this.precio = precio;
+    }
+    
 }
