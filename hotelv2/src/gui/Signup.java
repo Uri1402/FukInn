@@ -5,6 +5,8 @@
  */
 package gui;
 
+import db.DBbridge;
+
 /**
  *
  * @author Uri
